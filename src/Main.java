@@ -2,7 +2,7 @@
  * @author Djamaldin N.
  * @version 19.05.2026
  */
-
+// CTRL + K - создать коммит
 //Это класс "Main"
 public class Main {
     //psvm - быстрый вызов public static void main
