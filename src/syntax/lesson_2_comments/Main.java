@@ -1,4 +1,4 @@
-package syntax;
+package syntax.lesson_2_comments;
 
 /**
  * @author Djamaldin N.
@@ -6,7 +6,7 @@ package syntax;
  */
 // syntax - new packege
 // CTRL + K - создать коммит
-//Это класс "syntax.Main"
+//Это класс "syntax.lesson_2_comments.Main"
 public class Main {
     //psvm - быстрый вызов public static void main
     public static void main(String[] args) {
