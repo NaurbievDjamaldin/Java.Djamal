@@ -1,9 +1,11 @@
+package syntax;
+
 /**
  * @author Djamaldin N.
  * @version 19.05.2026
  */
 // CTRL + K - создать коммит
-//Это класс "Main"
+//Это класс "syntax.Main"
 public class Main {
     //psvm - быстрый вызов public static void main
     public static void main(String[] args) {
