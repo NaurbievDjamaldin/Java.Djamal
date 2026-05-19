@@ -4,6 +4,7 @@ package syntax;
  * @author Djamaldin N.
  * @version 19.05.2026
  */
+// syntax - new packege
 // CTRL + K - создать коммит
 //Это класс "syntax.Main"
 public class Main {
