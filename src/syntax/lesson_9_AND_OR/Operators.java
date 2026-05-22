@@ -13,9 +13,18 @@ public class Operators {
         boolean isLess = a < b;
         boolean isLessOrEqual = a <= b;
 
+        // And(и) - &&, OR(или) - ||
+        boolean aIsGreaterThanB = a > b;//True
+        boolean aIsEqualOfB = a == b;//False
+        // false - оба должны выводить True если вывод правда
+        System.out.println(aIsGreaterThanB && aIsEqualOfB);
+        // True - хотя бы одно вырожение должно быть правда чтоб было True
+        System.out.println(aIsGreaterThanB || aIsEqualOfB);
 
-
-
-
+        boolean logicalAND = aIsGreaterThanB && aIsEqualOfB;//Коньюнция
+        boolean logicalOR = aIsGreaterThanB || aIsEqualOfB;//Дезъюнкция
+        System.out.println("The result of expression: 10 > 3 AND 10 == 3 is "+logicalAND);
+        System.out.println("The result of expression: 10 > 3 OR 10 == 3 is "+logicalOR);
     }
 }
+
