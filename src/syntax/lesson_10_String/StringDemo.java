@@ -26,7 +26,35 @@ public class StringDemo {
         System.out.println(substring);
 
         //Проверка наличия подстроки .contains
-        System.out.println("The string contains \"World\": " + greeting.contains("World"));
+        System.out.println("The string contains \"World\": " + greeting.contains("world"));
+
+        // toUpperCase() - все буквы переменной greeting становятся заглавными
+        String greetingWithUpperCase = greeting.toUpperCase();
+        System.out.println(greetingWithUpperCase);
+        System.out.println("The string contains \"World\": " + greetingWithUpperCase.contains("WORLD"));
+
+        // toLowerCase() - все буквы переменной greeting становятся строчными
+        String greetingWithLowerCase = greeting.toLowerCase();
+        System.out.println(greetingWithLowerCase);
+        System.out.println("The string contains \"World\": " + greetingWithLowerCase.contains("world"));
+
+        //удаление пробелов (trim)
+        var login = "    Djamal_Naurbiev     ";
+        System.out.println(login);
+        String loginAfterTrim = login.trim();
+        System.out.println(loginAfterTrim);
+
+        //replace - замена знако, в данном примере заменили "_" на "."
+        var loginAfterReplace = login.trim().replace("_", ".");
+        System.out.println("loginAfterReplace " + loginAfterReplace);
+
+
+        // StringBuffer - для многопоточного программирования
+        StringBuilder sb = new StringBuilder("     Hello,");
+        sb.append("Djamal");
+        sb.append(" ");
+        sb.append("Naurbiev!              ");
+        System.out.println(sb);
 
 
     }
